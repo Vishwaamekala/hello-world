@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Adveo]">
+  <parameter name="Module" value="Customer"/>
+  <parameter name="applications" value="GNOSS"/>
+  <test name="GnossTest(failed)">
+    <parameter name="Module" value="Customer"/>
+    <parameter name="applications" value="GNOSS"/>
+    <classes>
+      <class name="test.ui.Gnoss.VerifyGnossPricingPage">
+        <methods>
+          <include name="initKlovReport"/>
+          <include name="verifyPricingProfile"/>
+        </methods>
+      </class> <!-- test.ui.Gnoss.VerifyGnossPricingPage -->
+      <class name="test.ui.Gnoss.VerifyGnossHomePage">
+        <methods>
+          <include name="searchProduct"/>
+          <include name="verifyCategories"/>
+          <include name="verifyLanguage"/>
+        </methods>
+      </class> <!-- test.ui.Gnoss.VerifyGnossHomePage -->
+      <class name="test.ui.Gnoss.VerifyGnossLoginLogout">
+        <methods>
+          <include name="driverWait"/>
+          <include name="verifyLoginGnoss" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="report"/>
+          <include name="verifyLogoutGnoss"/>
+        </methods>
+      </class> <!-- test.ui.Gnoss.VerifyGnossLoginLogout -->
+      <class name="test.ui.Gnoss.VerifyGnossProductsPage">
+        <methods>
+          <include name="verifyFacetSeller"/>
+          <include name="verifyProductstab"/>
+          <include name="verifyFacetAdveoCode"/>
+          <include name="verifyFacetGTIN"/>
+          <include name="verifyFacetRatings"/>
+          <include name="verifyFacetsNumOfReviews"/>
+          <include name="verifyFacetProductsWithEditedPrice"/>
+        </methods>
+      </class> <!-- test.ui.Gnoss.VerifyGnossProductsPage -->
+    </classes>
+  </test> <!-- GnossTest(failed) -->
+</suite> <!-- Failed suite [Adveo] -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dealerAuthenticationResponse>
+    <authenticationStatus>FAILURE</authenticationStatus>
+    <error>
+        <errorCode>102</errorCode>
+        <errorMessage>DB Connection cannot be established. Please check network and try again. </errorMessage>
+    </error>
+</dealerAuthenticationResponse>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="test(failed)">
+    <classes>
+      <class name="test.ui.verifyLoginPage2">
+        <methods>
+          <include name="skipTest"/>
+          <include name="CloseBrowser"/>
+          <include name="setup"/>
+          <include name="setupBrowser"/>
+          <include name="report"/>
+          <include name="skipTest2"/>
+          <include name="launchBrowser"/>
+          <include name="teardownBrowser"/>
+        </methods>
+      </class> <!-- test.ui.verifyLoginPage2 -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Adveo" duration-ms="716315" started-at="2018-07-09T06:44:47Z" finished-at="2018-07-09T06:56:44Z">
+    <groups>
+    </groups>
+    <test name="NavisionnTest" duration-ms="6" started-at="2018-07-09T06:44:47Z" finished-at="2018-07-09T06:44:47Z">
+    </test> <!-- NavisionnTest -->
+    <test name="GnossTest" duration-ms="716285" started-at="2018-07-09T06:44:47Z" finished-at="2018-07-09T06:56:44Z">
+      <class name="test.ui.Gnoss.VerifyGnossPricingPage">
+        <test-method status="PASS" signature="initKlovReport()[pri:0, instance:test.ui.Gnoss.VerifyGnossPricingPage@bd8db5a]" name="initKlovReport" is-config="true" duration-ms="657" started-at="2018-07-09T12:14:47Z" finished-at="2018-07-09T12:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initKlovReport -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.ui.Gnoss.VerifyGnossPricingPage@bd8db5a]" name="launchBrowser" is-config="true" duration-ms="14645" started-at="2018-07-09T12:25:25Z" finished-at="2018-07-09T12:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GNOSS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossPricingPage@bd8db5a]" name="driverWait" is-config="true" duration-ms="2" started-at="2018-07-09T12:25:40Z" finished-at="2018-07-09T12:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyPricingProfile()[pri:0, instance:test.ui.Gnoss.VerifyGnossPricingPage@bd8db5a]" name="verifyPricingProfile" duration-ms="62710" started-at="2018-07-09T12:25:40Z" description="Verify Pricing Profile details " finished-at="2018-07-09T12:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPricingProfile -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossPricingPage@bd8db5a]" name="report" is-config="true" duration-ms="13" started-at="2018-07-09T12:26:42Z" finished-at="2018-07-09T12:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPricingProfile status=SUCCESS method=VerifyGnossPricingPage.verifyPricingProfile()[pri:0, instance:test.ui.Gnoss.VerifyGnossPricingPage@bd8db5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:test.ui.Gnoss.VerifyGnossPricingPage@bd8db5a]" name="closeExtent" is-config="true" duration-ms="1238" started-at="2018-07-09T12:26:43Z" finished-at="2018-07-09T12:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:test.ui.Gnoss.VerifyGnossPricingPage@bd8db5a]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2018-07-09T12:26:44Z" finished-at="2018-07-09T12:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- test.ui.Gnoss.VerifyGnossPricingPage -->
+      <class name="test.ui.Gnoss.VerifyGnossHomePage">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="launchBrowser" is-config="true" duration-ms="17779" started-at="2018-07-09T12:19:15Z" finished-at="2018-07-09T12:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GNOSS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="driverWait" is-config="true" duration-ms="5" started-at="2018-07-09T12:19:33Z" finished-at="2018-07-09T12:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="searchProduct(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="searchProduct" duration-ms="70670" started-at="2018-07-09T12:19:33Z" description="Search product with productName, Verify dealer should navigate to Product page" data-provider="getData" finished-at="2018-07-09T12:20:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="report" is-config="true" duration-ms="12" started-at="2018-07-09T12:20:44Z" finished-at="2018-07-09T12:20:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=VerifyGnossHomePage.searchProduct(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="driverWait" is-config="true" duration-ms="4" started-at="2018-07-09T12:20:44Z" finished-at="2018-07-09T12:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyCategories(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="verifyCategories" duration-ms="926" started-at="2018-07-09T12:20:44Z" description="Verify: categories" data-provider="getData" finished-at="2018-07-09T12:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategories -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="report" is-config="true" duration-ms="10" started-at="2018-07-09T12:20:45Z" finished-at="2018-07-09T12:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCategories status=SUCCESS method=VerifyGnossHomePage.verifyCategories(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="driverWait" is-config="true" duration-ms="2" started-at="2018-07-09T12:20:45Z" finished-at="2018-07-09T12:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyLanguage(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="verifyLanguage" duration-ms="2276" started-at="2018-07-09T12:20:45Z" description="Verify: Languages" data-provider="getData" finished-at="2018-07-09T12:20:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguage -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="report" is-config="true" duration-ms="8" started-at="2018-07-09T12:20:47Z" finished-at="2018-07-09T12:20:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLanguage status=SUCCESS method=VerifyGnossHomePage.verifyLanguage(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:test.ui.Gnoss.VerifyGnossHomePage@3cb1ffe6]" name="closeExtent" is-config="true" duration-ms="1358" started-at="2018-07-09T12:20:47Z" finished-at="2018-07-09T12:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- test.ui.Gnoss.VerifyGnossHomePage -->
+      <class name="test.ui.Gnoss.VerifyGnossProductsPage">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="launchBrowser" is-config="true" duration-ms="62508" started-at="2018-07-09T12:20:49Z" finished-at="2018-07-09T12:21:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GNOSS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="driverWait" is-config="true" duration-ms="6" started-at="2018-07-09T12:21:51Z" finished-at="2018-07-09T12:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyFacetAdveoCode(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="verifyFacetAdveoCode" duration-ms="109244" started-at="2018-07-09T12:21:51Z" description="Login GNOSS and navigate th Products page, Verify the AdveoCode facet, Search with the valid AdveoCode and verify the same on the product page" data-provider="getData" finished-at="2018-07-09T12:23:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacetAdveoCode -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="report" is-config="true" duration-ms="11" started-at="2018-07-09T12:23:40Z" finished-at="2018-07-09T12:23:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacetAdveoCode status=SUCCESS method=VerifyGnossProductsPage.verifyFacetAdveoCode(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="driverWait" is-config="true" duration-ms="8" started-at="2018-07-09T12:23:40Z" finished-at="2018-07-09T12:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyFacetGTIN(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="verifyFacetGTIN" duration-ms="6546" started-at="2018-07-09T12:23:40Z" description="Login GNOSS and navigate th Products page, Verify the GTIN facet, Search with the valid GTIN and verify the same on the product page" data-provider="getData" finished-at="2018-07-09T12:23:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacetGTIN -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="report" is-config="true" duration-ms="8" started-at="2018-07-09T12:23:47Z" finished-at="2018-07-09T12:23:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacetGTIN status=SUCCESS method=VerifyGnossProductsPage.verifyFacetGTIN(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="driverWait" is-config="true" duration-ms="5" started-at="2018-07-09T12:23:47Z" finished-at="2018-07-09T12:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyFacetSeller(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="verifyFacetSeller" duration-ms="28084" started-at="2018-07-09T12:23:47Z" description="Verify: facets-(seller)" data-provider="getData" finished-at="2018-07-09T12:24:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacetSeller -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="report" is-config="true" duration-ms="12" started-at="2018-07-09T12:24:15Z" finished-at="2018-07-09T12:24:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacetSeller status=SUCCESS method=VerifyGnossProductsPage.verifyFacetSeller(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="driverWait" is-config="true" duration-ms="3" started-at="2018-07-09T12:24:15Z" finished-at="2018-07-09T12:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyFacetProductsWithEditedPrice(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="verifyFacetProductsWithEditedPrice" duration-ms="20646" started-at="2018-07-09T12:24:15Z" description="Verify: facets-(products with edited price)" data-provider="getData" finished-at="2018-07-09T12:24:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacetProductsWithEditedPrice -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="report" is-config="true" duration-ms="9" started-at="2018-07-09T12:24:36Z" finished-at="2018-07-09T12:24:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacetProductsWithEditedPrice status=SUCCESS method=VerifyGnossProductsPage.verifyFacetProductsWithEditedPrice(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="driverWait" is-config="true" duration-ms="2" started-at="2018-07-09T12:24:36Z" finished-at="2018-07-09T12:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyFacetRatings(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="verifyFacetRatings" duration-ms="7095" started-at="2018-07-09T12:24:36Z" description="Verify: facets-(review ratings)" data-provider="getData" finished-at="2018-07-09T12:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacetRatings -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="report" is-config="true" duration-ms="9" started-at="2018-07-09T12:24:43Z" finished-at="2018-07-09T12:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacetRatings status=SUCCESS method=VerifyGnossProductsPage.verifyFacetRatings(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="driverWait" is-config="true" duration-ms="9" started-at="2018-07-09T12:24:43Z" finished-at="2018-07-09T12:24:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyFacetsNumOfReviews(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="verifyFacetsNumOfReviews" duration-ms="21205" started-at="2018-07-09T12:24:43Z" description="Verify: facets-( number of reviews)" data-provider="getData" finished-at="2018-07-09T12:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacetsNumOfReviews -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="report" is-config="true" duration-ms="13" started-at="2018-07-09T12:25:04Z" finished-at="2018-07-09T12:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacetsNumOfReviews status=SUCCESS method=VerifyGnossProductsPage.verifyFacetsNumOfReviews(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="driverWait" is-config="true" duration-ms="2" started-at="2018-07-09T12:25:04Z" finished-at="2018-07-09T12:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyProductstab()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="verifyProductstab" duration-ms="19692" started-at="2018-07-09T12:25:04Z" description="Verify Facets details on Products page " finished-at="2018-07-09T12:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductstab -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="report" is-config="true" duration-ms="8" started-at="2018-07-09T12:25:24Z" finished-at="2018-07-09T12:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductstab status=SUCCESS method=VerifyGnossProductsPage.verifyProductstab()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:test.ui.Gnoss.VerifyGnossProductsPage@467aecef]" name="closeExtent" is-config="true" duration-ms="1230" started-at="2018-07-09T12:25:24Z" finished-at="2018-07-09T12:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- test.ui.Gnoss.VerifyGnossProductsPage -->
+      <class name="test.ui.Gnoss.VerifyGnossLoginLogout">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8]" name="launchBrowser" is-config="true" duration-ms="174175" started-at="2018-07-09T12:14:47Z" finished-at="2018-07-09T12:17:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GNOSS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8]" name="driverWait" is-config="true" duration-ms="3" started-at="2018-07-09T12:17:42Z" finished-at="2018-07-09T12:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyLoginGnoss(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8]" name="verifyLoginGnoss" duration-ms="37972" started-at="2018-07-09T12:17:42Z" description="Onboard Dealer , Login to GNOSS application and verify the title of the page" data-provider="getData" finished-at="2018-07-09T12:18:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginGnoss -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8]" name="report" is-config="true" duration-ms="25" started-at="2018-07-09T12:18:20Z" finished-at="2018-07-09T12:18:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginGnoss status=SUCCESS method=VerifyGnossLoginLogout.verifyLoginGnoss(java.util.Hashtable)[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="driverWait()[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8]" name="driverWait" is-config="true" duration-ms="3" started-at="2018-07-09T12:18:20Z" finished-at="2018-07-09T12:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverWait -->
+        <test-method status="PASS" signature="verifyLogoutGnoss()[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8]" name="verifyLogoutGnoss" duration-ms="53616" started-at="2018-07-09T12:18:20Z" description="Logout from GNOSS application and verify logout message" finished-at="2018-07-09T12:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutGnoss -->
+        <test-method status="PASS" signature="report(org.testng.ITestResult)[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8]" name="report" is-config="true" duration-ms="14" started-at="2018-07-09T12:19:14Z" finished-at="2018-07-09T12:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogoutGnoss status=SUCCESS method=VerifyGnossLoginLogout.verifyLogoutGnoss()[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:test.ui.Gnoss.VerifyGnossLoginLogout@3dfc5fb8]" name="closeExtent" is-config="true" duration-ms="1740" started-at="2018-07-09T12:19:14Z" finished-at="2018-07-09T12:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- test.ui.Gnoss.VerifyGnossLoginLogout -->
+    </test> <!-- GnossTest -->
+  </suite> <!-- Adveo -->
+</testng-results>

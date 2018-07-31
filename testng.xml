@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adveo">
+	<test thread-count="5" name="NavisionnTest">
+		<parameter name="applications" value="NAVISION" />
+		<classes>
+			<parameter name="Module" value="dealer" />
+			<class name="test.ui.navision.VerifyDealerItems" />
+			<class name="test.ui.navision.VerifyNavCustomers" />
+			<class name="test.ui.navision.VerifyNavDealerPage" />
+			<class name="test.ui.navision.VerifyNavDealerSettings" />
+		</classes>
+	</test> <!-- NavisionnTest -->
+	<test thread-count="5" name="GnossTest">
+		<parameter name="applications" value="GNOSS" />
+		<classes>
+			<parameter name="Module" value="Customer" />
+			<class name="test.ui.Gnoss.VerifyGnossLoginLogout" />
+			<class name="test.ui.Gnoss.VerifyGnossHomePage" />
+			<class name="test.ui.Gnoss.VerifyGnossProductsPage"></class>
+			<class name="test.ui.Gnoss.VerifyGnossPricingPage"></class>
+		</classes>
+	</test> <!-- GNOSSTest -->
+</suite> <!-- Adveo -->

@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Adveo">
+              <span class="suite-name border-passed">Adveo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Adveo">
+                    <span>C:\Projects\CWD-21April\QA_Adveo_Testingcode\Avactis-Store\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Adveo">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Adveo">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Adveo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Adveo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Adveo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Adveo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Adveo" class="hide-methods passed suite-Adveo"> (hide)</a> <!-- hide-methods passed suite-Adveo -->
+                      <a href="#" panel-name="suite-Adveo" class="show-methods passed suite-Adveo"> (show)</a> <!-- show-methods passed suite-Adveo -->
+                    </span>
+                    <div class="method-list-content passed suite-Adveo">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossHomePage" hash-for-method="searchProduct({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">searchProduct({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossHomePage" hash-for-method="verifyCategories({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyCategories({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossProductsPage" hash-for-method="verifyFacetAdveoCode({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyFacetAdveoCode({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossProductsPage" hash-for-method="verifyFacetGTIN({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyFacetGTIN({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossProductsPage" hash-for-method="verifyFacetProductsWithEditedPrice({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyFacetProductsWithEditedPrice({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossProductsPage" hash-for-method="verifyFacetRatings({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyFacetRatings({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossProductsPage" hash-for-method="verifyFacetSeller({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyFacetSeller({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossProductsPage" hash-for-method="verifyFacetsNumOfReviews({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyFacetsNumOfReviews({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossHomePage" hash-for-method="verifyLanguage({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyLanguage({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossLoginLogout" hash-for-method="verifyLoginGnoss({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">verifyLoginGnoss({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossLoginLogout" hash-for-method="verifyLogoutGnoss">verifyLogoutGnoss</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossPricingPage" hash-for-method="verifyPricingProfile">verifyPricingProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Adveo" title="test.ui.Gnoss.VerifyGnossProductsPage" hash-for-method="verifyProductstab">verifyProductstab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Adveo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Adveo" class="panel Adveo">
+          <div class="suite-Adveo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ui.Gnoss.VerifyGnossPricingPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPricingProfile">
+                  </a> <!-- verifyPricingProfile -->
+                  <span class="method-name">verifyPricingProfile</span>
+                  <em>
+(Verify Pricing Profile details )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adveo-class-passed -->
+          <div class="suite-Adveo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ui.Gnoss.VerifyGnossHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- searchProduct({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">searchProduct</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Search product with productName, Verify dealer should navigate to Product page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCategories({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyCategories({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyCategories</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Verify: categories)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLanguage({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyLanguage({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyLanguage</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Verify: Languages)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adveo-class-passed -->
+          <div class="suite-Adveo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ui.Gnoss.VerifyGnossLoginLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginGnoss({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyLoginGnoss({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyLoginGnoss</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Onboard Dealer , Login to GNOSS application and verify the title of the page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutGnoss">
+                  </a> <!-- verifyLogoutGnoss -->
+                  <span class="method-name">verifyLogoutGnoss</span>
+                  <em>
+(Logout from GNOSS application and verify logout message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adveo-class-passed -->
+          <div class="suite-Adveo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ui.Gnoss.VerifyGnossProductsPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacetAdveoCode({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyFacetAdveoCode({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyFacetAdveoCode</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Login GNOSS and navigate th Products page, Verify the AdveoCode facet, Search with the valid AdveoCode and verify the same on the product page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacetGTIN({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyFacetGTIN({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyFacetGTIN</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Login GNOSS and navigate th Products page, Verify the GTIN facet, Search with the valid GTIN and verify the same on the product page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacetProductsWithEditedPrice({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyFacetProductsWithEditedPrice({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyFacetProductsWithEditedPrice</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Verify: facets-(products with edited price))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacetRatings({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyFacetRatings({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyFacetRatings</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Verify: facets-(review ratings))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacetSeller({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyFacetSeller({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyFacetSeller</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Verify: facets-(seller))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacetsNumOfReviews({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)">
+                  </a> <!-- verifyFacetsNumOfReviews({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...) -->
+                  <span class="method-name">verifyFacetsNumOfReviews</span>
+                  <span class="parameters">({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, ExpectedEnglish=New recommended prices, ExpectedRank=CategoriesRanking, ExpectedProducts=Products, ExpectedHome=Home, Margin=60.48%, ExpectedEditedPriceProduct=Yes, AdveoCode=G05443, GTINCode=04008110797519, ExpectedPricing=Pricing Profile, PageTitleExpected=My Services - Adveo Dealers, Field Name=Field Value, UpperReviewLimit=4, ExpectedStars=5, ExpectedSeller2=amazon, ExpectedSeller1=priz24, ProductName=herlitz versandtasche 797514 b4 hkbr ve5, LowerReviewLimit=0, PriceUpdate=2.1})</span>
+                  <em>
+(Verify: facets-( number of reviews))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductstab">
+                  </a> <!-- verifyProductstab -->
+                  <span class="method-name">verifyProductstab</span>
+                  <em>
+(Verify Facets details on Products page )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adveo-class-passed -->
+        </div> <!-- panel Adveo -->
+        <div panel-name="test-xml-Adveo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Projects\CWD-21April\QA_Adveo_Testingcode\Avactis-Store\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Adveo&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NavisionnTest&quot;&gt;
+    &lt;parameter name=&quot;Module&quot; value=&quot;dealer&quot;/&gt;
+    &lt;parameter name=&quot;applications&quot; value=&quot;NAVISION&quot;/&gt;
+  &lt;/test&gt; &lt;!-- NavisionnTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GnossTest&quot;&gt;
+    &lt;parameter name=&quot;Module&quot; value=&quot;Customer&quot;/&gt;
+    &lt;parameter name=&quot;applications&quot; value=&quot;GNOSS&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.ui.Gnoss.VerifyGnossLoginLogout&quot;/&gt;
+      &lt;class name=&quot;test.ui.Gnoss.VerifyGnossHomePage&quot;/&gt;
+      &lt;class name=&quot;test.ui.Gnoss.VerifyGnossProductsPage&quot;/&gt;
+      &lt;class name=&quot;test.ui.Gnoss.VerifyGnossPricingPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GnossTest --&gt;
+&lt;/suite&gt; &lt;!-- Adveo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Adveo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Adveo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">NavisionnTest (0 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">GnossTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Adveo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Adveo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Adveo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Adveo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Adveo');
+function tableData_Adveo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyFacetAdveoCode')
+data.setCell(0, 2, 'test.ui.Gnoss.VerifyGnossProductsPage')
+data.setCell(0, 3, 109244);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchProduct')
+data.setCell(1, 2, 'test.ui.Gnoss.VerifyGnossHomePage')
+data.setCell(1, 3, 70670);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyPricingProfile')
+data.setCell(2, 2, 'test.ui.Gnoss.VerifyGnossPricingPage')
+data.setCell(2, 3, 62710);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLogoutGnoss')
+data.setCell(3, 2, 'test.ui.Gnoss.VerifyGnossLoginLogout')
+data.setCell(3, 3, 53616);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoginGnoss')
+data.setCell(4, 2, 'test.ui.Gnoss.VerifyGnossLoginLogout')
+data.setCell(4, 3, 37972);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyFacetSeller')
+data.setCell(5, 2, 'test.ui.Gnoss.VerifyGnossProductsPage')
+data.setCell(5, 3, 28084);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFacetsNumOfReviews')
+data.setCell(6, 2, 'test.ui.Gnoss.VerifyGnossProductsPage')
+data.setCell(6, 3, 21205);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyFacetProductsWithEditedPrice')
+data.setCell(7, 2, 'test.ui.Gnoss.VerifyGnossProductsPage')
+data.setCell(7, 3, 20646);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyProductstab')
+data.setCell(8, 2, 'test.ui.Gnoss.VerifyGnossProductsPage')
+data.setCell(8, 3, 19692);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyFacetRatings')
+data.setCell(9, 2, 'test.ui.Gnoss.VerifyGnossProductsPage')
+data.setCell(9, 3, 7095);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyFacetGTIN')
+data.setCell(10, 2, 'test.ui.Gnoss.VerifyGnossProductsPage')
+data.setCell(10, 3, 6546);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyLanguage')
+data.setCell(11, 2, 'test.ui.Gnoss.VerifyGnossHomePage')
+data.setCell(11, 3, 2276);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyCategories')
+data.setCell(12, 2, 'test.ui.Gnoss.VerifyGnossHomePage')
+data.setCell(12, 3, 926);
+window.suiteTableData['Adveo']= { tableData: data, tableDiv: 'times-div-Adveo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Adveo">
+              </div> <!-- times-div-Adveo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Adveo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Adveo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Adveo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.ui.Gnoss.VerifyGnossHomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CloseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initKlovReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.ui.Gnoss.VerifyGnossLoginLogout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CloseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initKlovReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.ui.Gnoss.VerifyGnossProductsPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CloseBrowser</span>
+                <br/>
+                <span class="ignored-method-name">initKlovReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Adveo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ui.Gnoss.VerifyGnossPricingPage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initKlovReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ui.Gnoss.VerifyGnossLoginLogout</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(GNOSS)</span>
+                <span class="method-start">691 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">175334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginGnoss({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">175337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyLoginGnoss status=SUCCESS method=VerifyGnossLoginLogout.verifyLoginGnoss(java...)</span>
+                <span class="method-start">213311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">213336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutGnoss</span>
+                <span class="method-start">213339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyLogoutGnoss status=SUCCESS method=VerifyGnossLoginLogout.verifyLogoutGnoss()[...)</span>
+                <span class="method-start">266956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeExtent</span>
+                <span class="method-start">266970 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ui.Gnoss.VerifyGnossHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(GNOSS)</span>
+                <span class="method-start">268710 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">286532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchProduct({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">286537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=searchProduct status=SUCCESS method=VerifyGnossHomePage.searchProduct(java.util.Has...)</span>
+                <span class="method-start">357208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">357260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCategories({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">357264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyCategories status=SUCCESS method=VerifyGnossHomePage.verifyCategories(java.ut...)</span>
+                <span class="method-start">358191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">358233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLanguage({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">358235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyLanguage status=SUCCESS method=VerifyGnossHomePage.verifyLanguage(java.util.H...)</span>
+                <span class="method-start">360512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeExtent</span>
+                <span class="method-start">360520 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ui.Gnoss.VerifyGnossProductsPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(GNOSS)</span>
+                <span class="method-start">361878 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">424417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFacetAdveoCode({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">424423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyFacetAdveoCode status=SUCCESS method=VerifyGnossProductsPage.verifyFacetAdveo...)</span>
+                <span class="method-start">533668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">533700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFacetGTIN({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">533708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyFacetGTIN status=SUCCESS method=VerifyGnossProductsPage.verifyFacetGTIN(java....)</span>
+                <span class="method-start">540255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">540281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFacetSeller({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">540286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyFacetSeller status=SUCCESS method=VerifyGnossProductsPage.verifyFacetSeller(j...)</span>
+                <span class="method-start">568371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">568403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFacetProductsWithEditedPrice({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">568406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyFacetProductsWithEditedPrice status=SUCCESS method=VerifyGnossProductsPage.ve...)</span>
+                <span class="method-start">589053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">589077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFacetRatings({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">589079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyFacetRatings status=SUCCESS method=VerifyGnossProductsPage.verifyFacetRatings...)</span>
+                <span class="method-start">596175 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">596201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFacetsNumOfReviews({ExpectedRangeEightNine=8-10, ExpectedRange=0-4, ExpectedSpanish=Nuevos precios recomendados, Expect...)</span>
+                <span class="method-start">596210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyFacetsNumOfReviews status=SUCCESS method=VerifyGnossProductsPage.verifyFacets...)</span>
+                <span class="method-start">617416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">617430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductstab</span>
+                <span class="method-start">617432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyProductstab status=SUCCESS method=VerifyGnossProductsPage.verifyProductstab()...)</span>
+                <span class="method-start">637124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeExtent</span>
+                <span class="method-start">637132 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ui.Gnoss.VerifyGnossPricingPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(GNOSS)</span>
+                <span class="method-start">638362 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">driverWait</span>
+                <span class="method-start">653008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPricingProfile</span>
+                <span class="method-start">653010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">report([TestResult name=verifyPricingProfile status=SUCCESS method=VerifyGnossPricingPage.verifyPricingProf...)</span>
+                <span class="method-start">715721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeExtent</span>
+                <span class="method-start">715734 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">716992 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
